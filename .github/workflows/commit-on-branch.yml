@@ -18,4 +18,4 @@ jobs:
         
         - name: Run script
           run: |
-            bash ${GITHUB_WORKSPACE}/commit-on-branch.sh
+            bash ${GITHUB_WORKSPACE}/commit-on-branch.sh ${{ secrets.GITHUB_TOKEN }}
